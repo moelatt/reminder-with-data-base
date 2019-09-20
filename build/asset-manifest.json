@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/reminder-with-data-base/static/css/main.1bc43ccc.chunk.css",
+    "main.js": "/reminder-with-data-base/static/js/main.0b1d8a93.chunk.js",
+    "main.js.map": "/reminder-with-data-base/static/js/main.0b1d8a93.chunk.js.map",
+    "runtime~main.js": "/reminder-with-data-base/static/js/runtime~main.3b9e7095.js",
+    "runtime~main.js.map": "/reminder-with-data-base/static/js/runtime~main.3b9e7095.js.map",
+    "static/css/2.ff9ea1f9.chunk.css": "/reminder-with-data-base/static/css/2.ff9ea1f9.chunk.css",
+    "static/js/2.054e1938.chunk.js": "/reminder-with-data-base/static/js/2.054e1938.chunk.js",
+    "static/js/2.054e1938.chunk.js.map": "/reminder-with-data-base/static/js/2.054e1938.chunk.js.map",
+    "index.html": "/reminder-with-data-base/index.html",
+    "precache-manifest.6b6d8cc46e25812e2dd82f3d8fa4180f.js": "/reminder-with-data-base/precache-manifest.6b6d8cc46e25812e2dd82f3d8fa4180f.js",
+    "service-worker.js": "/reminder-with-data-base/service-worker.js",
+    "static/css/2.ff9ea1f9.chunk.css.map": "/reminder-with-data-base/static/css/2.ff9ea1f9.chunk.css.map",
+    "static/css/main.1bc43ccc.chunk.css.map": "/reminder-with-data-base/static/css/main.1bc43ccc.chunk.css.map",
+    "static/media/list.svg": "/reminder-with-data-base/static/media/list.041b26b8.svg",
+    "static/media/index.css": "/reminder-with-data-base/static/media/mountain.2aad0cec.jpg"
+  }
+}

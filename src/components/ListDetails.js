@@ -12,7 +12,7 @@ const ListDetails = ({ list }) => {
         var date = list.dateLeft;
         var dayStr = '';
         if(isNaN(date) ){
-            dayStr = `enter date`
+            dayStr = `enter date manually`
         }  
         else if(date <= 0){
             date = 0;
