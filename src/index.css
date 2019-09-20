@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(./img/mountain.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.App{
+  background: linear-gradient(to right, rgba(22, 22, 22, 0.7), rgba(13, 97, 153, 0.8), rgba(138, 32, 138, 0.7));
+  margin: 20px auto;
+  width: 90%;
+  max-width: 500px;
+  max-height: 700px;
+  min-height: 600px;
+  border-radius: 20px;
+  color: #eee;
+  overflow: scroll;
+}
+.nav-bar{
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(124, 246, 250);
+  font-size: 1.4rem;
+}
+.nav-bar h1{
+  font-family: 'Kalam', cursive;
+  margin: 10px 0;
+  color: rgb(246, 203, 147);
+  font-weight: bold;
+  font-size: 2.4rem;
+  text-decoration: rgb(124, 246, 250);
+  margin-bottom: 20px;
+}
+.nav-bar p{
+  margin-bottom: 5px;
+  font-family: 'Asap Condensed', sans-serif;
+}
+.reminder-list{
+  margin: 20px;
+  
+}
+.image{
+  display: inline-block;
+  width: 70px;
+  height: auto;
+}
+
+.reminder-list ul{
+  padding: 0;
+  list-style: none;
+  align-items: center;
+}
+.reminder-list li{
+  background: #29638faa;
+  border-radius: 15px;
+  
+  padding: 1rem;
+  height: 60px;
+  cursor: pointer;
+  margin: 10px 0;
+  transition: all 1s ease-in-out;
+}
+.reminder-list li:hover{
+  background: #0a7b85af;
+  text-decoration: line-through;
+}
+
+.reminder-list .title{
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: 'Marmelad', sans-serif;
+
+}
+
+.reminder-list .author{
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: bolder;
+  color:yellow;
+}
+
+.empty{
+  font-family: 'Kreon', serif;
+  margin: 20px;
+  color: rgba(252, 255, 85, 0.842);
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+form{
+  padding: 20px;
+}
+.btn{
+  background: red;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  float: right;
+  padding: 0.3rem 0.6rem;
+  margin-top: 25px;
+  margin-bottom: auto;
+  cursor: pointer;
+  /* margin-bottom: 10px; */
+}
+.days-left{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: right;
+  font-weight: bold;
+  font-size: 1rem;
+  color: rgba(46, 254, 5, 0.741)
+}
+.dateClass{
+  text-align: end;
+  font-weight: bold;
+  color: rgba(206, 206, 206, 0.986)
+  /* float: right; */
+}
+.btn:active{
+  transform: translateY(4px);
+}
+.date-picker{
+  padding: 0px;
+  font-size: 1.3rem;
+  margin: 6px 22px;
+  color: #fff;
+  border: 0;
+  border-radius: 10px;
+}
+input[type = 'text']{
+  width: 100%;
+  padding: 15px;
+  font-size: 1.3rem;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: #3c1f3c;
+  color: #fff;
+  border: 0;
+  border-radius: 10px;
+}
+input[type = 'submit']{
+  font-family: 'Arbutus Slab', serif;
+  float: right;
+  margin: 4px auto;
+  background: rgb(1, 119, 165);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.3rem;
+  border: 0;
+  padding: 15px 20px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+input[type = 'submit']:active{
+  transform: translateY(4px)
+}
+input[type = 'submit']:hover{
+  background: purple;
+}
